@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'ChaletComprime';
+    src: url("../fontes/ChaletComprime.ttf");
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #ffffff;
+   
+}
+
+.cabecalho{
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    border-bottom: 5px solid #ff0000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 4s;
+}
+
+
+.logo-rw img{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+.logo-escrito img{
+    width: 300px;
+}
+
+.cabecalho .logo{
+    display: flex;
+    gap: 15px;
+    
+}
+.cabecalho .menu
+{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.cabecalho .menu li a{
+    padding: 30px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Chalet';
+
+}
+
+.cabecalho .menu li a:hover{
+    border-bottom: 2px solid #ffffff;
+    
+
+}
+
+
+
+.linha {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+ 
+  .coluna {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .coluna img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .coluna {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .coluna {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000d7;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #ffffff;
+    
+    
+}
+
+#conteudo_footer img{
+    width: 200px;
+    padding: 20px;
+}
+
+#cop_footer span {
+    padding: 10px;
+    
+}
+
+
+
+
+.cabecalho.scroll{
+    background-color: #000000d7;
+    z-index: 1;
+    transition: 4s;
+    padding: 20px;
+}
+
+.cabecalho.scroll a{
+    color:#fff
+
+    
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+#scroll-top{
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    padding: 10px 15px;
+    background-color: #fffffffd;
+    border-radius: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    color: #000000;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+#scroll-top:hover{
+    background-color: #8522be;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
