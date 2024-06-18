@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100vh; 
-    width: 100%; 
+    
 }
 
 @font-face {
@@ -22,6 +21,8 @@ a {
 
 body{
     background-color: #ffffff;
+    height: 100vh; 
+    width: 100%; 
     
    
 }
